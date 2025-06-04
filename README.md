@@ -1,4 +1,4 @@
-# todo List
+# todo list
 
 ## tasks
 
