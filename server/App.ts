@@ -20,7 +20,6 @@ AppDataSource.initialize()
             console.log("listening on port 3000");
 
             // create repositories
-
             const audioRepository = AppDataSource.getRepository(Audio);
             const bookmarkRepository = AppDataSource.getRepository(Bookmark);
             const commentRepository = AppDataSource.getRepository(Comment);
@@ -28,6 +27,9 @@ AppDataSource.initialize()
             const editorRepository = AppDataSource.getRepository(Editor);
             const fandomRepository = AppDataSource.getRepository(Fandom);
             const styleRepository = AppDataSource.getRepository(Style);
+        
+            
+        
         });
     })
     .catch((error) => {
