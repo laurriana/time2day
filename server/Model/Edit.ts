@@ -4,7 +4,6 @@ import { Editor } from "./Editor";
 import { Style } from "./Style";
 import { Comment } from "./Comment";
 import { Audio } from "./Audio";
-import { Bookmark } from "./Bookmark";
 
 @Entity()
 export class Edit {
