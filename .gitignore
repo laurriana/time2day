@@ -1,17 +1,17 @@
+# Created by https://www.toptal.com/developers/gitignore/api/intellij
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 *.env
 
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
 
-node_modules
-bower_components
+# Editor-based Rest Client
+.idea/httpRequests
 
-*.sublime*
-.vscode/
-
-psd
-thumb
-sketch
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
